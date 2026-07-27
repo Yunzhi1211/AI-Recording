@@ -1,0 +1,27 @@
+{
+  "app": {
+    "appID": "",
+    "accessKey": "",
+    "resourceID": "seed-tts-2.0",
+    "uid": "123123"
+  },
+  "files": {
+    "input_text": "input.txt",
+    "ppt_file": "training.pptx",
+    "audio_output": "output.mp3",
+    "video_output": "output_video_ffmpeg.mp4"
+  },
+  "audio": {
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "sample_rate": 24000,
+    "format": "mp3"
+  },
+  "video_params": {
+    "resolution": "854x480",
+    "fps": 24,
+    "preset": "ultrafast",
+    "crf": 30,
+    "audio_bitrate": "128k"
+  },
+  "slide_mapping": []
+}
