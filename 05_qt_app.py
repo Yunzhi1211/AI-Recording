@@ -183,6 +183,9 @@ I18N = {
         "del_row": "删选中",
         "validate": "校验",
         "save_map": "保存对齐",
+        "col_start": "起始句",
+        "col_end": "结束句",
+        "col_slide": "图片",
         "sentences": "句子",
         "no_ts": "还没有句子时间戳。请先合成音频。",
         "need_ts": "请先合成音频，才会有句子时间戳。",
@@ -329,6 +332,9 @@ I18N = {
         "del_row": "Delete",
         "validate": "Check",
         "save_map": "Save timing",
+        "col_start": "Start line",
+        "col_end": "End line",
+        "col_slide": "Picture",
         "sentences": "Sentences",
         "no_ts": "No sentence timestamps yet. Make the audio first.",
         "need_ts": "Make the audio first so timestamps exist.",
@@ -1705,6 +1711,9 @@ class Studio(QMainWindow):
         self.b_del_row.setText(self.t("del_row"))
         self.b_validate.setText(self.t("validate"))
         self.b_save_map.setText(self.t("save_map"))
+        self.map_table.setHorizontalHeaderLabels(
+            [self.t("col_start"), self.t("col_end"), self.t("col_slide")]
+        )
         self.hero_title.setText(self.t("hero"))
         self.hero_p.setText(self.t("hero_p"))
         self.hero_have.setText(self.t("cta_have"))
