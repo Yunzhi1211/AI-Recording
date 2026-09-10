@@ -4,6 +4,8 @@
 
 > Windows 桌面流水线：用讲稿和 PowerPoint 生成带口播的翻页视频，无需出镜、无需安静录音环境。
 
+![Iris Studio 演示](assets/demo.gif)
+
 ## 项目概述
 
 Iris Studio 是面向教师、企业培训讲师、以及需要把既有资料做成可观看成片的用户的 PyQt6 桌面程序。系统**不采集**摄像头或麦克风。口播由云端语音合成（TTS）生成；每一页幻灯片经 Microsoft PowerPoint 导出为图片；口播句子与页面对齐后，由 FFmpeg 拼接成片。

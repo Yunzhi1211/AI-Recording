@@ -4,6 +4,8 @@
 
 > A Windows desktop pipeline that turns a teaching script and PowerPoint deck into a narrated slide video—without camera recording or a quiet room.
 
+![Iris Studio demo](assets/demo.gif)
+
 ## Project Overview
 
 Iris Studio is a PyQt6 application for instructors, corporate trainers, and anyone who needs to convert existing course materials into a watchable film. The system does **not** capture webcam or microphone audio. It synthesizes narration with a cloud text-to-speech (TTS) API, exports each slide as an image through Microsoft PowerPoint, aligns spoken sentences to pages, and concatenates the result with FFmpeg.
