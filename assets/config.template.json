@@ -1,0 +1,35 @@
+{
+  "app": {
+    "uiLang": "zh",
+    "apiKey": "",
+    "appID": "",
+    "accessKey": "",
+    "resourceID": "seed-tts-2.0",
+    "uid": "123123"
+  },
+  "files": {
+    "input_text": "outputs/未命名一课/口播文稿.txt",
+    "ppt_file": "outputs/未命名一课/课件.pptx",
+    "work_dir": "outputs/未命名一课",
+    "images_dir": "outputs/未命名一课/幻灯片图片",
+    "audio_output": "outputs/未命名一课/口播.mp3",
+    "video_output": "outputs/未命名一课/成片.mp4"
+  },
+  "audio": {
+    "speaker": "zh_female_vv_uranus_bigtts",
+    "sample_rate": 24000,
+    "format": "mp3"
+  },
+  "video_params": {
+    "resolution": "854x480",
+    "fps": 24,
+    "preset": "ultrafast",
+    "crf": 30,
+    "audio_bitrate": "128k"
+  },
+  "slide_mapping": [],
+  "supabase": {
+    "url": "",
+    "anonKey": ""
+  }
+}

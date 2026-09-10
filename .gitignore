@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+config.json
+.gui_lang
+ffmpeg.exe
+assets/ffmpeg.exe
+assets/studio.db
+assets/.iris_session.json
+*.mp3
+*.mp4
+*.pptx
+ppt_images/
+幻灯片图片/
+task_id.txt
+timestamps.json
+concat_list_timed.txt
+stop_query.flag
+input.txt
+training.pptx
+studio.db
+.iris_session.json
+outputs/
+sentence_list.txt
+Iris Studio.lnk
